@@ -31,8 +31,8 @@ public class AssignmentOne {
     }
 
     // Create a new booking and add it to the ArrayList of appointments
-    public static void createAppointment(ArrayList<Appointment> appointments, String patientName, String mobilePhone, String timeSlot, HealthProfessional doctor) {
-        Appointment newAppointment = new Appointment(patientName, mobilePhone, timeSlot, doctor);
+    public static void createAppointment(ArrayList<Appointment> appointments, String patientName, String mobilePhone, String time, HealthProfessional doctor) {
+        Appointment newAppointment = new Appointment(patientName, mobilePhone, time, doctor);
         appointments.add(newAppointment);
     }
 
